@@ -1,9 +1,12 @@
 import React from 'react'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div className='text-black-500'>
-      Testing Tailwind
+    <div className='mx-4 sm:mx-[10%]'>
+      <Routes>
+        <Route path='/' elements={<Home/>} />
+      </Routes>
     </div>
   )
 }

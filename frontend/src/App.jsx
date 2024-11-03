@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
       <Routes>
-        <Route path='/' elements={<Home/>} />
+        <Route path='/' element={<Home/>} />
       </Routes>
     </div>
   )

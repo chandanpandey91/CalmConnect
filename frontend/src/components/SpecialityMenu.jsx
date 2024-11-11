@@ -10,9 +10,9 @@ const SpecialityMenu = () => {
         <div>
             {specialityData.map((item,index)=>(
 
-                <Link to={`/doctors/${item.speciality}`}>
+                <Link key={index} to={`/doctors/${item.speciality}`}>
                     <img src={item.image} alt="" />
-                    
+                    <p>{item.speciality}</p>
 
                 </Link>
             ))}

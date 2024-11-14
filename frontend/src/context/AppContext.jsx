@@ -5,6 +5,11 @@ export const AppContext = createContext()
 
 const AppContextProvider = () => {
     const value = {
-
+        doctors
     }
+    return (
+        <AppContext.Provider>
+            
+        </AppContext.Provider>
+    )
 }

@@ -3,9 +3,10 @@ import { assets } from '../assets/assets'
 
 const Banner = () => {
   return (
-    <div>
+    <div className='flex bg-primary rounded-lg px-6 sm:px-10 md:px-12 lg:px-14 my-20 md:mx-10'>
         {/* {-------LEFT SIDE------- } */}
-        <div className=''>
+        <div>
+
             <div>
                 <p>Book Appointment</p>
                 <p>With 100+ Trusted Doctors</p>

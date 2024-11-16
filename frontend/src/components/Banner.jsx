@@ -9,7 +9,7 @@ const Banner = () => {
 
             <div className='text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold text-white'>
                 <p>Book Appointment</p>
-                <p>With 100+ Trusted Doctors</p>
+                <p className='mt-4'>With 100+ Trusted Doctors</p>
             </div>
             <button>Create Account</button>
         </div>

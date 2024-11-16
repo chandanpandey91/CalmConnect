@@ -1,4 +1,5 @@
 import React from 'react'
+import { assets } from '../assets/assets'
 
 const Banner = () => {
   return (
@@ -14,7 +15,7 @@ const Banner = () => {
 
         {/* {-------Right SIDE------- } */}
         <div>
-            
+            <img src={assets.appointment_img} alt="" />
         </div>
     </div>
   )

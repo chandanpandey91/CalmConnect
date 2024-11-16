@@ -9,6 +9,7 @@ const Banner = () => {
                 <p>Book Appointment</p>
                 <p>With 100+ Trusted Doctors</p>
             </div>
+            <button>Create Account</button>
         </div>
 
         {/* {-------Right SIDE------- } */}

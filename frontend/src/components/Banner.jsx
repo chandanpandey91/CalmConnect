@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className='flex bg-primary rounded-lg px-6 sm:px-10 md:px-12 lg:px-14 my-20 md:mx-10'>
         {/* {-------LEFT SIDE------- } */}
-        <div>
+        <div className=''>
 
             <div>
                 <p>Book Appointment</p>
@@ -15,8 +15,8 @@ const Banner = () => {
         </div>
 
         {/* {-------Right SIDE------- } */}
-        <div>
-            <img src={assets.appointment_img} alt="" />
+        <div className='hidden md:block md:w-1/2 lg:w-[370px] relative'>
+            <img className="w-full absolute bottom-0 right-0 max-w-md" src={assets.appointment_img} alt="" />
         </div>
     </div>
   )

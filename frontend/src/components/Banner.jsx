@@ -5,7 +5,10 @@ const Banner = () => {
     <div>
         {/* {-------LEFT SIDE------- } */}
         <div>
-
+            <div>
+                <p>Book Appointment</p>
+                <p>With 100+ Trusted Doctors</p>
+            </div>
         </div>
 
         {/* {-------Right SIDE------- } */}

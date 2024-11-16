@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div>
         {/* {-------LEFT SIDE------- } */}
-        <div>
+        <div className=''>
             <div>
                 <p>Book Appointment</p>
                 <p>With 100+ Trusted Doctors</p>

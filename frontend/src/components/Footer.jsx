@@ -4,10 +4,10 @@ import { assets } from '../assets/assets'
 const Footer = () => {
   return (
     <div className='md:mx-10'>
-        <div>
+        <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         {/* left */}
         <div>
-            <img src={assets.logo} alt="" />
+            <img className="mb-5 w-40" src={assets.logo} alt="" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         {/* center */}

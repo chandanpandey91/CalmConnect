@@ -4,6 +4,7 @@ import { assets } from '../assets/assets'
 const Footer = () => {
   return (
     <div className='md:mx-10'>
+        <div>
         {/* left */}
         <div>
             <img src={assets.logo} alt="" />
@@ -27,6 +28,7 @@ const Footer = () => {
            <li>Email:  info@example.com</li>
           </ul>  
         </div>
+    </div>
     </div>
   )
 }

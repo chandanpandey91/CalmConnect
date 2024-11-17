@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='md:mx-10'>
         {/* left */}
         <div>
             <img src={assets.logo} alt="" />

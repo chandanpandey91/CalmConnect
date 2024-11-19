@@ -17,7 +17,7 @@ const Appointment = () => {
   useEffect(() => {
     fetchDocInfo()
   }, [doctors,docId])
-  return (
+  return docInfo && (
     <div>
       {/* Doctors Details   */}
       <div>

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
+import { assets } from '../assets/assets'
 
 const Appointment = () => {
 
@@ -23,6 +24,10 @@ const Appointment = () => {
       <div>
         <div>
           <img src={docInfo.image} alt=""/>
+        </div>
+        <div>
+          {/* details of doctor */}
+          <p>{docInfo.name} <img src={assets.verified_icon} alt=""/> </p> <p>{docInfo.speciality}</p>
         </div>
       </div>
     </div>

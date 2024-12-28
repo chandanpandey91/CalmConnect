@@ -21,9 +21,9 @@ const Appointment = () => {
   return docInfo && (
     <div>
       {/* Doctors Details   */}
-      <div>
+      <div className='flex flex-col sm:flex-row gap-4'>
         <div>
-          <img src={docInfo.image} alt=""/>
+          <img className='bg-primary w-full sm:max-w-72 rounded-lg' src={docInfo.image} alt=""/>
         </div>
         <div>
           {/* details of doctor */}
@@ -33,8 +33,10 @@ const Appointment = () => {
             <button>{docInfo.experience}</button>
           </div>
          {/* about of doctor */} 
+
          <div>
-          <p></p>
+          <p>About <img src={assets.info_icon} alt=""/></p>
+          <p>{docInfo.about}</p>
          </div>
         </div>
       </div>

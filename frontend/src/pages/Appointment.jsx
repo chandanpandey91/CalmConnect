@@ -38,7 +38,7 @@ const Appointment = () => {
           <p className='flex items-center gap-1 text-smfont-medium text-gray-900 mt-3'>About <img src={assets.info_icon} alt=""/></p>
           <p className='text-sm text-gray-500 max-w-[700px] mt-1'>{docInfo.about}</p>
          </div>
-         <p>
+         <p className='text-gray-500 font-medium mt-4'>
           Appointment Fee: <span>{currencySymbol}{docInfo.fees}</span>
          </p>
         </div>

@@ -39,7 +39,7 @@ const Appointment = () => {
           <p className='text-sm text-gray-500 max-w-[700px] mt-1'>{docInfo.about}</p>
          </div>
          <p>
-          Appointment Fee: <span>{docInfo.fees}</span>
+          Appointment Fee: <span>{currencySymbol}{docInfo.fees}</span>
          </p>
         </div>
       </div>
